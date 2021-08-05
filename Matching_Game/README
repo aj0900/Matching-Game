@@ -1,0 +1,33 @@
+Hi, you are about to play a matching game. Pick two cards from
+the set of 16. To start the game simply open 'index1.html' file
+in safari or any web browser. The game is simple. If they are 
+the same, it's a match and the cards will stay flipped. If the
+cards are not the same, they will flip back over facing down.
+Upon finding all the matching cards, you would have beat the
+game. To restart the game, simply refresh the page and start
+over. Enjoy!
+
+Note: Only feature I was not able to implement was changing the
+background color based on match or mismatch. 
+
+Reason for this being I initally started with a different idea
+in terms of how to go style the cards and what logic to use for
+matching cards. The initial idea was to build each individually
+using css and then comparing all the cards using a for loop and
+if the matching card was also flipped then it was a match and
+the cards would stay flipped. This idea was not the most efficient
+idea since it would loop through every card and brought many 
+unnecessary complexities. This inital idea took me a day and a
+half to code and I was not getting anywhere so I changed my
+approach and this time I created a grid and gave each card their
+unique value. If the values of the two flipped card matched then
+it was a match, if not they would flip back over and the user
+would try to pick another two cards to match up. Due to intial
+idea not working I wasted some time which ended up hurting my
+progress and was not to add the background color changing feature.
+My idea was to implement the background color change was when
+the cards are being checked to see if they match or not, I wanted
+to add an if and else statement to the that function. If they
+match then change background color to green otherwise change it
+to red and control how long the color stays using css transition
+tool.
